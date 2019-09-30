@@ -11,8 +11,8 @@ gem 'yajl-ruby'
 gem "rest-client"
 gem 'rake'
 gem 'redis'
-gem 'mixlib-versioning', '~> 1.1.0'
-gem "mixlib-install", '>= 3.11.23', git: "https://github.com/chef/mixlib-install", branch: "main"
+gem 'mixlib-versioning', '~> 1.1.0', source: 'https://rubygems.org/'
+gem 'mixlib-install', '>= 3.11.23', source: 'https://rubygems.cinc.sh/'
 gem 'trashed'
 
 group :test do

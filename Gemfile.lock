@@ -10,6 +10,7 @@ GIT
 
 GEM
   remote: https://rubygems.org/
+  remote: https://packagecloud.io/cinc-project/stable/
   specs:
     backports (3.20.2)
     byebug (11.1.3)
@@ -111,7 +112,7 @@ DEPENDENCIES
   colorize
   json
   mixlib-install (>= 3.11.23)!
-  mixlib-versioning (~> 1.1.0)
+  mixlib-versioning (~> 1.1.0)!
   pry-byebug
   rack-test
   rake
