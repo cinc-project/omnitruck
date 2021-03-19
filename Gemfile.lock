@@ -109,6 +109,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  chef-utils!
   colorize
   json
   mixlib-install (>= 3.11.23)!
