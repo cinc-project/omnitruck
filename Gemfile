@@ -12,7 +12,7 @@ gem "rest-client"
 gem 'rake'
 gem 'redis'
 gem 'mixlib-versioning', '~> 1.1.0', source: 'https://rubygems.org/'
-gem 'mixlib-install', '>= 3.11.23', source: 'https://rubygems.cinc.sh/'
+gem 'mixlib-install', '>= 3.11.23', git: 'https://gitlab.com/cinc-project/upstream/mixlib-install.git', branch: 'stable/cinc'
 gem 'chef-utils', source: 'https://rubygems.cinc.sh/'
 gem 'trashed'
 
